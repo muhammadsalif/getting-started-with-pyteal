@@ -38,7 +38,7 @@
 
 ## Interaction with application 
 - Calling application with arguments:
-```goal app call --app-id YOUR_DEPLOYED_APPLICATION_ID --from YOUR_GOAL_ACCOUNT_ADDRESS --app-arg "str:optIn" —foreign-asset 1```
+```goal app call --app-id YOUR_DEPLOYED_APPLICATION_ID --from YOUR_GOAL_ACCOUNT_ADDRESS --app-arg "str:optIn" —foreign-asset YOUR_ASSET_ID```
 
 - app info
 ```goal app info —-app-id YOUR_DEPLOYED_APPLICATION_ID```
