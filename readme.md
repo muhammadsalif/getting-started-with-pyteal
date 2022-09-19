@@ -2,7 +2,7 @@
 
 ## Setting up development environment and project
 
-⋅⋅* Clone sandbox from https://github.com/algorand/sandbox
+⋅⋅⋅Clone sandbox from https://github.com/algorand/sandbox
 
 ⋅⋅* Create project folder with same architecture
 
