@@ -38,7 +38,7 @@
 
 ## Interaction with application 
 - Calling application with arguments:
-```goal app call --app-id YOUR_DEPLOYED_APPLICATION_ID --from U63LJDZW7FG3IARWZZFDSAHVVSZWW4YBPQI3M2ECWKELHJXCCK6ZF2ZMQU --app-arg "str:optIn" —foreign-asset 1```
+```goal app call --app-id YOUR_DEPLOYED_APPLICATION_ID --from YOUR_GOAL_ACCOUNT_ADDRESS --app-arg "str:optIn" —foreign-asset 1```
 
 - app info
 ```goal app info —-app-id YOUR_DEPLOYED_APPLICATION_ID```
@@ -47,11 +47,11 @@
 ```goal app read —-global --app-id YOUR_DEPLOYED_APPLICATION_ID --guess-format```
 
 - Optin
-```goal app optin  --app-id uint```
+```goal app optin  --app-id YOUR_DEPLOYED_APPLICATION_ID```
 
 - Update
 ```goal app update [flags]```
 
 - Account info
-```goal account info -a U63LJDZW7FG3IARWZZFDSAHVVSZWW4YBPQI3M2ECWKELHJXCCK6ZF2ZMQU```
+```goal account info -a YOUR_GOAL_ACCOUNT_ADDRESS```
 
