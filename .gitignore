@@ -1,0 +1,23 @@
+.env
+node_modules
+
+.active_config
+.clean
+sandbox.log
+data
+
+# emacs backup
+*~
+
+venv
+build
+
+.active_config
+.clean
+sandbox.log
+data
+
+# emacs backup
+*~
+
+__pycache__

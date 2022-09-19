@@ -24,6 +24,10 @@ services:
       - ${ALGOD_PORT:-4001}:4001
       - ${KMD_PORT:-4002}:4002
       - ${CDT_PORT:-9392}:9392
+    volumes:
+      - type: bind
+        source: ../project
+        target: /data
 
   indexer:
     container_name: "${INDEXER_CONTAINER:-algorand-sandbox-indexer}"
@@ -48,7 +52,7 @@ services:
     depends_on:
       - indexer-db
       - algod
-      
+
   indexer-db:
     image: "postgres:13-alpine"
     container_name: "${POSTGRES_CONTAINER:-algorand-sandbox-postgres}"
