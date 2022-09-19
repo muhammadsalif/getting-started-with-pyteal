@@ -16,7 +16,7 @@
 ```pip3 install -r requirements.txt```
 
 - Select interpreter in vscode for removing errors of import etc.
-  + interpreter path in vs code command pallette ./project/venv/bin/python3.9
+  + Interpreter path in vs-code command pallette ./project/venv/bin/python3.9
 
 - Link your project folder with docker compose file by adding volumes key in that file.
 
