@@ -16,7 +16,7 @@
 ```pip3 install -r requirements.txt```
 
 - Select interpreter in vscode for removing errors of import etc.
-⋅⋅⋅⋅interpreter path in vs code command pallette ./project/venv/bin/python3.9
+--- interpreter path in vs code command pallette ./project/venv/bin/python3.9
 
 - Link your project folder with docker compose file by adding volumes key in that file.
 
@@ -25,7 +25,7 @@
 
 - In project folder virtual env terminal run to build contract files 
 ```sh ./build.sh contracts.contract```
-⋅⋅⋅⋅That will create a build folder in project directory and after compilation of pyteal code to teal files
+--- That will create a build folder in project directory and after compilation of pyteal code to teal files
 
 - Entering in sandbox in sandbox directory terminal :
 ```./sandbox enter algod```
