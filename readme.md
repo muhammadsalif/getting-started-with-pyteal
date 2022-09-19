@@ -55,3 +55,12 @@
 - Account info
 ```goal account info -a YOUR_GOAL_ACCOUNT_ADDRESS```
 
+
+For more more details command check docs folder of this repo
+
+For more detail demo and learning checkout these official links below
+[Official course video series](https://www.youtube.com/watch?v=V3d3VTlgMo8&list=PLpAdAjL5F75CNnmGbz9Dm_k-z5I6Sv9_x)
+[learing code repo](https://github.com/algorand-devrel/pyteal-course)
+
+
+
