@@ -30,7 +30,7 @@
 ⋅⋅* Entering in sandbox in sandbox directory terminal :
 ```./sandbox enter algod```
 
-⋅⋅* 
+⋅⋅*Create an app by the following command
 ```goal app create --creator ADDRESS_OF_GOAL_ACCOUNT --approval-prog /data/build/approval.teal --clear-prog /data/build/clear.teal --global-byteslices NUMBER_OF_GLOBAL_BYTE_SLICES_IN_CONTRACT --global-ints NUMBER_OF_GLOBAL_INTS_SLICES_IN_CONTRACT --local-byteslices NUMBER_OF_LOCAL_BYTE_SLICES_IN_CONTRACT --local-ints NUMBER_OF_LOCAL_INTS_SLICES_IN_CONTRACT```
 
 
